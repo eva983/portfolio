@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eva's hub</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="left">
+
+            <div class="logo-container">
+                <a href="" class="logo"><img alt="spacecraft logo img for ehub" src="mylogo.png"></a>
+
+                <div class="social-icons">
+                    <a class="sns" href="https://github.com/eva983" target="_blank">
+                        <img class="sns-img" src="github.png" alt="github">
+                    </a> <a class="sns" href="https://www.linkedin.com/in/evangelia-papazisi-482339227/"
+                        target="_blank">
+                        <img class="sns-img" src="linkedin.png" alt="github">
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="menu-icon" onclick="toggleMenu()">
+                <iconify-icon icon="bx:menu" id="menu-icon" style="color: white;"></iconify-icon>
+
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a class="nav-btn" href="#about" onclick="closeMenu()">.about()</a></li>
+            <li><a class="nav-btn" href="#projects" onclick="closeMenu()">.projects()</a></li>
+            <li><a class="nav-btn" href="#contact" onclick="closeMenu()">.contact()</a></li>
+
+
+            <li class="mobile social-icons"> <a class="sns" href="github.com" target="_blank">
+                    <img class="sns-img" src="github.png" alt="github">
+                </a>
+            </li>
+            <li class="mobile social-icons"><a class="sns" href="github.com" target="_blank">
+                    <img class="sns-img" src="linkedin.png" alt="github">
+                </a>
+            </li>
+        </ul>
+
+
+    </div>
+
+    <section class="section-cont" id="hero">
+        <div class="content">
+            <div class="column">
+                <div id="title">
+
+                    <h1><span class="text"></span><span class="blink"></span>, web developer</h1>
+                </div>
+                <div class="subtitle">
+                    I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+
+                </div>
+                <a href="EVA_PAPAZISI_CV.pdf" download="EVA_PAPAZISI_CV.pdf" class="btn">
+                    <iconify-icon icon="line-md:download-loop" class="icon"></iconify-icon>
+
+                    <span class="btn-text">Download CV</span>
+                </a>
+            </div>
+            <div class="column">
+                <div class="hero-img">
+                    <div class="shape">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-cont" id="about">
+        <div class="content">
+            <div class="column">
+                <div class="about-box">
+                    <p> 👋Enthusiastic and driven web developer with a Bachelor's degree in Computer Science. With a
+                        year of
+                        experience as a Web Developer and CMS Manager, I excel in leveraging my technical skills and
+                        creative mindset to deliver solutions. With a strong foundation in computer science principles
+                        and a
+                        keen eye for detail, I am
+                        committed to continuous learning and staying on top of industry trends. </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-cont" id="skills">
+        <div class="content">
+            <div class="column">
+                <div class="table-row">
+                    <div class="row flex-start left-r">
+                        <img class="about-icon" alt="university cap image" src="uni_cap.png">
+                        <h3>Education</h3>
+                        <p>
+                            Graduated from the <b>Computer Science department</b> of the <b>Athens University of
+                                Economics
+                                and Business</b> in 2022. My
+                            education at AUEB equipped me with essential skills in
+                            programming and analytical thinking. Throughout my studies, I delved into various areas
+                            including databases (SQL, PostgreSQL), Object-Oriented Programming (OOP), Java, C++, Python,
+                            algorithms, data structures, and relevant mathematical principles.</p>
+                    </div>
+                    <hr>
+                    <div class="row right-r">
+                        <img class="about-icon" alt="working laptop image" src="work.png">
+                        <h3>Work Experience</h3>
+                        <p>Web Developer with 2 years of experience in creating and managing WordPress and Shopify websites, including e-commerce platforms. Designing custom themes, adjusting PHP code for tailored functionalities, and integrating advanced animations, hosting management, SEO optimization, and email marketing campaigns. Passionate about delivering mobile-first, responsive websites that prioritize performance and user experience.
+
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="skills-box">
+                    <h2>technologies</h2>
+                    <div class="row skills-r">
+                        <div class="skill"> <i class="devicon-html5-plain skills-icon"></i><span>html5</span></div>
+                        <div class="skill"> <i class="devicon-css3-plain skills-icon"></i><span>css</span>
+                        </div>
+                        <div class="skill"> <i class="devicon-javascript-plain skills-icon"></i><span>javascript</span>
+                        </div>
+                        <div class="skill">
+                            <img class="skills-icon invert-filter" src="responsive.png" alt="responsive design icon"
+                                class="icon "><span>responsive design</span>
+                        </div>
+                     
+                        <div class="skill"> <i class="devicon-jquery-plain skills-icon"></i>
+                            <span>jquery</span>
+                        </div>
+                        <div class="skill"> <i class="devicon-bootstrap-plain skills-icon"></i>
+                            <span>bootstrap</span>
+
+                        </div>
+                        <div class="skill"> <i class="devicon-woocommerce-plain-wordmark"></i>
+                            <span>woocommerce</span>
+                          </div>
+                        <div class="skill"> <i class="devicon-wordpress-plain skills-icon"></i>
+                            <span>wordpress</span>
+                        </div>
+                        <div class="skill">  <img class="skills-icon" src="shopify.png" alt="shopify icon"
+                            class="icon ">
+                            <span>Shopify</span>
+                        </div>
+                        <div class="skill"> <i class="devicon-git-plain skills-icon"></i>
+                            <span>git</span>
+                        </div>
+                    
+                        <div class="skill"> <i class="devicon-figma-plain skills-icon"></i>
+                            <span>figma</span>
+                        </div>
+                        <div class="skill"> <i class="devicon-photoshop-line skills-icon"></i>
+                            <span>photoshop</span>
+                        </div>
+                        <div class="skill"> <i class="devicon-react-original small"></i> <span>react</span></div>
+
+                        <div class="skill"> <i class="devicon-mongodb-plain small"></i><span>mongoDB</span></div>
+                        <div class="skill"> <i class="devicon-nodejs-plain small"></i><span>Nodejs</span></div>
+                        <div class="skill"> <i class="devicon-php-plain small"></i><span>php</span></div>
+
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cont" id="projects">
+        <div class="content">
+            <div class="column projects">
+                <h2>projects</h2>
+                <span> 📝 currently working on: shopify app for live shipping rates on checkouts </span>
+                <div class="row mobile-reverse">
+                    <img src="ToDoBuddy.png" class="project-img">
+                    <div class="description">
+                        <h3>To do App</h3>
+                        <div class="row justify-content-l">
+                            <a href="https://to-do-front-end.onrender.com/" class="live-demo small-btn">LIVE</a>
+                            <a href="https://github.com/eva983/auth" class="git-code small-btn ">CODE</a>
+                        </div>
+
+                        <p class="">
+                            A functional to do app deployed on Render with JWT user authentication.
+                            Sign up and track your to do lists!
+                            For this project I used the MERN stack to learn more about react context, state and hooks, as well as
+                            how to create a users database and use json web tokens
+                            for user authentication.
+                        </p>
+                        <ul class="tools-used">
+                            <li>react</li>
+                            <li>mongoDB</li>
+                            <li>express</li>
+                            <li>node.js</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </div>
+          
+                <div class="row mobile-reverse">
+                    <img src="coming-soon.png" class="project-img">
+
+                    <div class="description">
+                        <h3>Youtube views Tracker</h3>
+                        <div class="row justify-content-l">
+                            <a href="https://github.com/eva983/yt_final" class="git-code small-btn ">CODE</a>
+                        </div>
+
+                        <p class="">
+                            A fun project made with the MERN stack and youtube API.
+                            Do you want to track the preformance of your favorite artists on
+                            youtube? This is the app for that. We track the view increase of
+                            each video and update our databse every 24 hours.
+                        </p>
+                        <ul class="tools-used">
+                            <li>react</li>
+                            <li>mongoDB</li>
+                            <li>express</li>
+                            <li>node.js</li>
+                            <li>Fetch API</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="row mobile-reverse">
+                    <img src="weather.PNG" class="project-img">
+
+                    <div class="description">
+                        <h3>Weather Song Recs</h3>
+                        <div class="row justify-content-l">
+                            <a href="https://weather-recs.netlify.app/" class="live-demo small-btn">LIVE</a>
+
+                            <a href="https://github.com/eva983/weather-song-recs/tree/main"
+                                class="git-code small-btn ">CODE</a>
+                        </div>
+
+                        <p class="">
+                            Want to listen to some music that matches the weather? I made an small app that will tell
+                            you
+                            the current weather in any city and will give you a song recommendation that will match the
+                            mood!
+                            Data fetched through spotify API and OpenWeatherApi.
+                            [design for mobile still in process]
+                        </p>
+                        <ul class="tools-used">
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Fetch API</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="row mobile-reverse">
+                    <img src="calc.PNG" class="project-img">
+
+                    <div class="description">
+                        <h3>Calculator</h3>
+                        <div class="row justify-content-l">
+                            <a href="https://jqcalc.netlify.app/" class="live-demo small-btn">LIVE</a>
+                            <a href="https://github.com/eva983/js-calc" class="git-code small-btn ">CODE</a>
+                        </div>
+
+                        <p class="">
+                            A simple responsive calculator with my own costum styling. Coded functions with jQuery.
+                        </p>
+                        <ul class="tools-used">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>jQuery</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-cont" id="contact">
+        <div class="content">
+            <div class="column">
+                <div class="contact-row">
+                    <div class="row left-r contact-text">
+                        <h2 class="contact-h"><iconify-icon class="icon contact-icon"
+                                icon="logos:mailjet-icon"></iconify-icon>
+
+                            <span class="btn-text">Contact me</span>
+                        </h2>
+                        <p class="align-left">Let's connect and collaborate to bring your vision to life!</p>
+                    </div>
+                    <div class="row right-r">
+                        <div class="container">
+                            <form name="contact" method="post" data-netlify="true" action="#">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <input type="text" name="subject" placeholder="Subject" required>
+                                <textarea name="message" placeholder="Your Message" required></textarea>
+                                <button class="btn" type="submit">Submit 🚀</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+
+
+
+    <footer>
+        <p>
+            Code & Design by Me<br>
+            Made with <br>
+            HTML, CSS3, Javascript/JQuery<br>
+            hosted on netflify</p>
+
+    </footer>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
